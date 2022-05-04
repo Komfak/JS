@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>HW_JS_1</title>
+</head>
+
+<body>
+    <h1>HW_JS_4*</h1>
+    <!-- Комментарий -->
+    <script>
+        let age_html = prompt('How old are you?');
+        let age = parseInt(age_html);
+        function Age(age) {
+            let age_2 = 18;
+            let age_3 = 60;
+            if (age < age_2) {
+                alert('You are under 18 years old')
+            } else
+                if (age >= age_2 && age < age_3) {
+                    alert("Welcome  !")
+                } else
+                    if (age >= age_3) {
+                        alert("Keep calm and look Culture channel")
+                    } else {
+                        alert("Technical work")
+
+                    }
+        };
+        Age(age);
+    </script>
+</body>
+
+</html>
